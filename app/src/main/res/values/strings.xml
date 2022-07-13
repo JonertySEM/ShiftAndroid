@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">ProjectShift</string>
+    <string name="Take_account">Войти</string>
+    <string name="Inp">Вход</string>
+    <string name="Registration">Регистрация</string>
+    <string name="Register">Зарегистрироваться</string>
+    <string name="FirstName">Имя</string>
+    <string name="SecondName">Фамилия</string>
+    <string name="Otchestvo">Отчество</string>
+    <string name="Password">Пароль</string>
 </resources>
