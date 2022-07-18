@@ -8,4 +8,32 @@
     <string name="SecondName">Фамилия</string>
     <string name="Otchestvo">Отчество</string>
     <string name="Password">Пароль</string>
+    <string name="NameOfProjg">Мои Услуги</string>
+    <string name="by_madness_of_search">By Madness Of Search</string>
+    <string name="create_set">Создание услуги</string>
+    <string name="CityStr">Город</string>
+    <string name="TextStr">Описание</string>
+    <string name="NameUslug">Название услуги</string>
+    <string name="PriceStr">Цена</string>
+    <string name="nameSign">Название услуги</string>
+    <string name="data_reg">Дата создания:</string>
+    <string name="cancelStr">Отменить</string>
+    <string name="City">Город</string>
+    <string name="opisan_usl">Краткое описание услуги</string>
+    <string name="priceStr">Цена услуги</string>
+    <string name="combineStr">Лента услуг</string>
+    <string name="filtr">Фильтр</string>
+    <string name="UserAccount">Профиль</string>
+    <string name="Redact">Редактировать</string>
+    <string name="nameuser">NameUser</string>
+    <string name="Icon">IconUser</string>
+
+
+    <string-array name="objects">
+        <item>Лента услуг</item>
+        <item>Создать услугу</item>
+        <item>Мои услуги</item>
+        <item>Лента услуг</item>
+    </string-array>
+
 </resources>

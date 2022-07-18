@@ -7,6 +7,30 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/InputLayoutName"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="10dp"
+        app:endIconMode="clear_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:startIconDrawable="@drawable/person">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/name_sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserat"
+            android:hint="ФИО" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/InputLayoutPass"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
@@ -25,36 +49,16 @@
         app:startIconDrawable="@drawable/key">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password_sign"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/montserat"
             android:hint="Пароль" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/InputLayoutName"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="70dp"
-        android:layout_marginEnd="10dp"
-        app:endIconMode="clear_text"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.476"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:startIconDrawable="@drawable/person">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="ФИО/Имя пользователя" />
-
-    </com.google.android.material.textfield.TextInputLayout>
-
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_signIn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -63,6 +67,7 @@
         android:layout_marginBottom="500dp"
         android:layout_weight="1"
         android:background="@drawable/rounded_button"
+        android:fontFamily="@font/montserat"
         android:text="@string/Take_account"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -74,22 +79,27 @@
     <TextView
         android:id="@+id/TextEnter"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         android:autoSizeMaxTextSize="30sp"
         android:autoSizeMinTextSize="10sp"
         android:autoSizeTextType="none"
         android:background="@drawable/line_text"
+        android:fontFamily="@font/montserat"
         android:gravity="center_horizontal"
         android:text="@string/Inp"
         android:textAlignment="gravity"
+        app:autoSizeTextType="uniform"
+        app:autoSizePresetSizes="@array/autosize_text_sizes"
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/InputLayoutName"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.05"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

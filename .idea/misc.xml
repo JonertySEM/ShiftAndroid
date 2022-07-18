@@ -4,11 +4,17 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.306" />
+        <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/drawable/arrow_back.xml" value="0.291" />
+        <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/drawable/burger.xml" value="0.311" />
         <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/drawable/custom_shade.xml" value="0.309" />
+        <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/drawable/ic_baseline_airplanemode_active_24.xml" value="0.291" />
         <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/drawable/ic_launcher_background.xml" value="0.309" />
         <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/drawable/issellected_dot.xml" value="0.291" />
+        <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/drawable/key.xml" value="0.291" />
         <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/drawable/line_text.xml" value="0.309" />
+        <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/drawable/next_button.xml" value="0.311" />
         <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/drawable/person.xml" value="0.309" />
+        <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/drawable/previous_button.xml" value="0.311" />
         <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/drawable/rounded_button.xml" value="0.309" />
         <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/drawable/rounded_pole.xml" value="0.309" />
         <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/drawable/splashscreen.xml" value="0.311" />
@@ -16,9 +22,18 @@
         <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/font/montserrat.xml" value="0.48046875" />
         <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/layout/activity_main.xml" value="0.5135869565217391" />
         <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/layout/come_in_account.xml" value="0.5" />
+        <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/layout/line_uslug_activity.xml" value="0.33" />
+        <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/layout/my_back_activity.xml" value="0.7083333333333334" />
+        <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/layout/my_profile.xml" value="0.5" />
+        <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/layout/my_shop_activity.xml" value="0.7083333333333334" />
         <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/layout/open_account.xml" value="0.33" />
-        <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/layout/opened_activity.xml" value="0.33" />
-        <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/layout/register_account.xml" value="0.25" />
+        <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/layout/opened_activity.xml" value="0.5" />
+        <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/layout/recyclerview_item_cards.xml" value="0.75" />
+        <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/layout/recyclerview_item_sidebar.xml" value="0.7083333333333334" />
+        <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/layout/register_account.xml" value="0.67" />
+        <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/layout/sidebar.xml" value="0.5" />
+        <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/layout/splash_screen.xml" value="0.42265625" />
+        <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/layout/uslug_activity.xml" value="0.5" />
         <entry key="..\:/programsForAndroid/AndroidProjectShift/ShiftAndroid/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.306" />
       </map>
     </option>

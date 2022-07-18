@@ -4,15 +4,20 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Toast
 import com.denzcoskun.imageslider.ImageSlider
 import com.denzcoskun.imageslider.constants.ScaleTypes
 import com.denzcoskun.imageslider.models.SlideModel
 import com.example.projectshift.databinding.ComeInAccountBinding
+import com.example.projectshift.databinding.OpenedActivityBinding
+import kotlinx.android.synthetic.main.opened_activity.*
 
 
-private lateinit var binding: ComeInAccountBinding
+
+
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var binding: ComeInAccountBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ComeInAccountBinding.inflate(layoutInflater)
@@ -38,6 +43,8 @@ class MainActivity : AppCompatActivity() {
         imageList.add(SlideModel("https://i.ibb.co/qMnHDg4/Group-28.jpg"))
         imageList.add(SlideModel("https://i.ibb.co/cLqVBHz/Group-29.jpg"))
         imageslider.setImageList(imageList, ScaleTypes.CENTER_INSIDE)
+
+
 
 
 

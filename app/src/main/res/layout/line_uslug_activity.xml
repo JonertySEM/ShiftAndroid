@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/drawer_inline"
+    tools:openDrawer="start"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/TextEnter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="680dp"
+            android:autoSizeMaxTextSize="30sp"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeTextType="none"
+            android:background="@drawable/line_text"
+            android:fontFamily="@font/montserat"
+            android:gravity="center_horizontal"
+            android:text="@string/combineStr"
+            android:textAlignment="gravity"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/button_filter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/burger_button_inline"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="305dp"
+            android:layout_marginBottom="2dp"
+            android:contentDescription="@string/City"
+            android:minHeight="48dp"
+            app:layout_constraintBottom_toBottomOf="@+id/TextEnter"
+            app:layout_constraintEnd_toEndOf="@+id/TextEnter"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/burger" />
+
+        <Button
+            android:id="@+id/button_filter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="570dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_button"
+            android:fontFamily="@font/montserat"
+            android:text="@string/filtr"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="170dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@drawable/rounded_button"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/IconUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/rounded_button"
+            android:contentDescription="@string/Icon"
+            app:srcCompat="@drawable/user" />
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:autoSizeMaxTextSize="30sp"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeTextType="none"
+            android:fontFamily="@font/montserat"
+            android:gravity="center_horizontal"
+            android:text="Алимпиев Семён Игоревич"
+            android:textAlignment="gravity"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_sidebar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="35dp"
+            tools:listitem="@layout/recyclerview_item_sidebar">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
